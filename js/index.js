@@ -1,8 +1,3 @@
-import { init } from "@vercel/analytics";
-
-// Initialize analytics when the page is loaded
-init();
-
 const home = document.getElementById("header__home");
 home.addEventListener("click", (event) => {
   event.preventDefault();
