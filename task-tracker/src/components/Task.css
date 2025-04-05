@@ -1,0 +1,39 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: white;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+}
+.task.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+.task span {
+  cursor: pointer;
+}
+.task button {
+  background: none;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.task button:hover {
+  text-decoration: underline;
+}
+
+.work {
+  border-left: 5px solid blue;
+}
+
+.personal {
+  border-left: 5px solid green;
+}
+
+.urgent {
+  border-left: 5px solid red;
+}/*# sourceMappingURL=Task.css.map */

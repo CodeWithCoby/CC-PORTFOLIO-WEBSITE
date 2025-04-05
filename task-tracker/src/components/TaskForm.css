@@ -1,0 +1,54 @@
+.task-form {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.task-form input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.task-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.task-form button:hover {
+  background-color: #0062cc;
+}
+
+.work {
+  border-left: 5px solid blue;
+}
+
+.personal {
+  border-left: 5px solid green;
+}
+
+.urgent {
+  border-left: 5px solid red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  align-self: flex-start;
+}/*# sourceMappingURL=TaskForm.css.map */
